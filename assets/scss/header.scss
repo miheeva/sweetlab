@@ -1,0 +1,79 @@
+/*vars*/
+$light-text: #ffffff;
+/* main*/
+html, body {
+  height: 100%;
+}
+.overlay{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* styles */
+header {
+  background-color: transparent !important;
+  border-bottom: 1px solid transparent;
+  border-image: url("../../assets/img/border.png") 25% round;
+  padding-top: 21px !important;
+  a.navbar-brand {
+    color: $light-text !important;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  ul.navbar-nav {
+    li.nav-item {
+      padding-left: 5px;
+      padding-right: 5px;
+      &:hover {
+        a.nav-link {
+          color: $light-text;
+        }
+      }
+      a.nav-link {
+        color: $light-text;
+        font-size: 14px;
+        position: relative;
+        &:hover {
+          &::after {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: $light-text;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+.container-fluid {
+  height: 100%;
+}
+div.carousel {
+  height: 100%;
+  div.carousel-inner {
+    height: 100%;
+    overflow: hidden;
+    div.carousel-item {
+      height: 100%;
+      width: 100%;
+      background-image: url("../../assets/img/slide.jpg");
+      background-size: cover;
+      .carousel-caption {
+        top: 37%;
+        h3 {
+          font-size: 48px;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+

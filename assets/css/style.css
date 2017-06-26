@@ -1,0 +1,65 @@
+/*vars*/
+/* main*/
+html, body {
+  height: 100%; }
+
+.overlay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/* styles */
+header {
+  background-color: transparent !important;
+  border-bottom: 1px solid transparent;
+  border-image: url("../../assets/img/border.png") 25% round;
+  padding-top: 21px !important; }
+  header a.navbar-brand {
+    color: #ffffff !important;
+    font-size: 22px;
+    text-transform: uppercase; }
+  header ul.navbar-nav li.nav-item {
+    padding-left: 5px;
+    padding-right: 5px; }
+    header ul.navbar-nav li.nav-item:hover a.nav-link {
+      color: #ffffff; }
+    header ul.navbar-nav li.nav-item a.nav-link {
+      color: #ffffff;
+      font-size: 14px;
+      position: relative; }
+      header ul.navbar-nav li.nav-item a.nav-link:hover::after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: #ffffff;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+
+.container-fluid {
+  height: 100%; }
+
+div.carousel {
+  height: 100%; }
+  div.carousel div.carousel-inner {
+    height: 100%;
+    overflow: hidden; }
+    div.carousel div.carousel-inner div.carousel-item {
+      height: 100%;
+      width: 100%;
+      background-image: url("../../assets/img/slide.jpg");
+      background-size: cover; }
+      div.carousel div.carousel-inner div.carousel-item .carousel-caption {
+        top: 37%; }
+        div.carousel div.carousel-inner div.carousel-item .carousel-caption h3 {
+          font-size: 48px; }
+        div.carousel div.carousel-inner div.carousel-item .carousel-caption p {
+          font-size: 18px; }
+
+.no_boot {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
