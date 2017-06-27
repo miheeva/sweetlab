@@ -1,0 +1,92 @@
+.page-header {
+
+  .menu-header {
+    height: 557px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menu-header-img {
+    &::after {
+      display: block;
+      content: '';
+      position: absolute;
+      background-image: url("../img/cake1.png");
+      background-size: contain;
+      width: 390px;
+      height: 390px;
+      top: 230px;
+      right: 0px;
+      box-shadow: -31px 31px 91px 21px rgba(18, 22, 25, 0.28);
+      z-index: 11;
+
+    }
+  }
+  .header-background {
+    position: relative;
+    height: 295px;
+    background: url("../img/menu-back.jpg") 100% 63% no-repeat;
+    background-size: cover;
+  }
+ }
+div.wrapper.menu {
+  background-color: $light-text;
+  .container {
+    ul.menu-link {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0 !important;
+      li {
+          padding: 30px 17px;
+        a {
+          color: #9a9999;
+          text-transform: uppercase;
+          font-family: Museo300;
+          &:hover {
+            color: $black-text;
+            transition: all .3s;
+            text-decoration: none;
+          }
+          &:focus {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .menu-item {
+      .slider-item {
+        position: relative;
+        z-index: 9;
+        img {
+          width: 100%;
+        }
+      }
+      .description-item {
+        background-color: $light-text;
+        width: 90%;
+        position: relative;
+        z-index: 99;
+        margin: -20px auto 29px;
+        text-align: center;
+        h3 {
+          font-size: 20px;
+          font-family: Museo500;
+        }
+        p {
+          font-size: 16px;
+          text-transform: lowercase;
+          font-family: Museo300;
+          color: $black-text;
+          &.tech-info {
+          color: #9a9999;
+          }
+        }
+
+        a {
+
+        }
+      }
+    }
+  }
+}

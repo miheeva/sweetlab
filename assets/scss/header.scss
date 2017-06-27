@@ -1,8 +1,11 @@
-/*vars*/
-$light-text: #ffffff;
 /* main*/
 html, body {
   height: 100%;
+  background-image: url("../img/back.jpg");
+  color: $black-text !important;
+  .container {
+    width: 997px !important;
+  }
 }
 .overlay{
   display: block;
@@ -14,13 +17,17 @@ html, body {
 /* styles */
 header {
   background-color: transparent !important;
-  border-bottom: 1px solid transparent;
-  border-image: url("../../assets/img/border.png") 25% round;
-  padding-top: 21px !important;
+  padding-top: 25px !important;
+  position: absolute !important;
   a.navbar-brand {
     color: $light-text !important;
     font-size: 22px;
     text-transform: uppercase;
+
+    img {
+      height: 89px;
+      width: auto;
+    }
   }
   ul.navbar-nav {
     li.nav-item {
@@ -35,6 +42,7 @@ header {
         color: $light-text;
         font-size: 14px;
         position: relative;
+        font-family: Museo500;
         &:hover {
           &::after {
             content: '';
@@ -54,26 +62,5 @@ header {
 .container-fluid {
   height: 100%;
 }
-div.carousel {
-  height: 100%;
-  div.carousel-inner {
-    height: 100%;
-    overflow: hidden;
-    div.carousel-item {
-      height: 100%;
-      width: 100%;
-      background-image: url("../../assets/img/slide.jpg");
-      background-size: cover;
-      .carousel-caption {
-        top: 37%;
-        h3 {
-          font-size: 48px;
-        }
-        p {
-          font-size: 18px;
-        }
-      }
-    }
-  }
-}
+
 

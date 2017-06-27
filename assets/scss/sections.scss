@@ -1,0 +1,133 @@
+
+.sections {
+  position: relative;
+  .section-header {
+    font-family: Museo300;
+    font-size: 48px;
+    padding-left: 2px;
+  }
+  .section-description {
+    font-family: Museo300;
+    font-size: 18px;
+
+  }
+  .section-button {
+    text-transform: lowercase;
+    font-family: Museo500;
+    font-size: 14px;
+    color: $black-text;
+    box-shadow: 0px 0px 0px 2px rgba(53, 58, 60, .21);
+    padding: 18px 19px;
+    width: 160px;
+    min-width: 160px;
+    display: block;
+    text-align: center;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .section-menu {
+    background-color: $light-text;
+    height: 550px;
+    width: 74.6vw;
+    margin-top: 53px;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 0px 0px 0px rgba(25, 45, 61, .18);
+    &::after {
+      display: block;
+      content: '';
+      position: absolute;
+      background-image: url("../img/cake1.png");
+      background-size: contain;
+      width: 390px;
+      height: 390px;
+      top: -55px;
+      right: -100px;
+      box-shadow: -31px 31px 91px 21px rgba(18, 22, 25, 0.28);
+    }
+    .container {
+      display: flex;
+      .text-content {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-left: 10px;
+        margin-top: -79px;
+      }
+    }
+
+  }
+
+  .section-catering {
+    margin-top: 115px;
+    height: 550px;
+    position: relative;
+    .text-content {
+        position: absolute;
+        z-index: 1;
+        top: 150px;
+        padding-left: 0;
+        left: -10px;
+    }
+    .subsection-catering {
+      height: 550px;
+      background-image: url("../img/catering.jpg");
+      background-size: contain;
+      width: 75vw;
+      right: 0;
+      position: absolute;
+    }
+  }
+  .section-corporate {
+    margin-top: 115px;
+    background-color: $light-text;
+    height: 550px;
+    width: 75vw;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 0px 0px 0px rgba(25, 45, 61, .18);
+    &::after {
+      display: block;
+      content: '';
+      position: absolute;
+      background-image: url("../img/cake2.png");
+      background-size: contain;
+      width: 390px;
+      height: 390px;
+      top: -55px;
+      right: -100px;
+      box-shadow: -31px 31px 91px 21px rgba(18, 22, 25, 0.28);
+    }
+    .container {
+      display: flex;
+      .text-content {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-left: 10px;
+      }
+    }
+  }
+  .section-organic {
+    margin-top: 115px;
+    margin-bottom: 230px;
+    height: 550px;
+    position: relative;
+    .text-content {
+      position: absolute;
+      z-index: 1;
+      top: 150px;
+      padding-left: 0;
+      left: -10px;
+    }
+    .subsection-organic {
+      height: 550px;
+      background-image: url("../img/organic.jpg");
+      background-size: contain;
+      width: 75vw;
+      right: 0;
+      position: absolute;
+    }
+  }
+}

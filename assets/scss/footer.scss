@@ -1,0 +1,28 @@
+footer {
+  background: url("../img/footer.jpg") 20% 100% no-repeat;
+  height: 260px;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+  .wrapper {
+    .container {
+      img.footer-logo {
+
+      }
+      .social {
+
+      }
+      .footer-contacts {
+        color: $light-text;
+      }
+      ul {
+        list-style: none;
+        li {
+          a {
+            color: $light-text;
+          }
+        }
+      }
+    }
+  }
+}

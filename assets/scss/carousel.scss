@@ -1,0 +1,44 @@
+div.carousel {
+  height: 123vh;
+  ol.carousel-indicators {
+    li {
+      height: 10px;
+      max-width: 10px;
+      width: 10px;
+      background-color: transparent;
+      border: 1px solid $light-text;
+      opacity: .5;
+      transition: all .3s;
+      &:hover {
+        background-color: $light-text;
+        opacity: 1;
+      }
+    }
+  }
+  .carousel-controls {
+    .carousel-arrow {
+
+    }
+  }
+  div.carousel-inner {
+    height: 100%;
+    overflow: hidden;
+    div.carousel-item {
+      height: 100%;
+      width: 100%;
+      background-image: url("../../assets/img/slide.jpg");
+      background-size: cover;
+      .carousel-caption {
+        top: 37%;
+        h3 {
+          font-size: 48px;
+          font-family: Museo300;
+        }
+        p {
+          font-size: 18px;
+          font-family: Museo300;
+        }
+      }
+    }
+  }
+}
