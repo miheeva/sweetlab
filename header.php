@@ -15,7 +15,9 @@
 <header class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
     <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-icon"></span>
+            <span class="navbar-icon"></span>
+            <span class="navbar-icon"></span>
         </button>
         <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
 
@@ -28,19 +30,19 @@
                     <a class="nav-link" href="/sweetlab/menu.php">Меню</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Кейтеринг</a>
+                    <a class="nav-link" href="/sweetlab/catering.php">Кейтеринг</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Корпоративные заказы</a>
+                    <a class="nav-link" href="/sweetlab/corporate.php">Корпоративные заказы</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Organic food</a>
+                    <a class="nav-link" href="/sweetlab/organic.php">Organic food</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
+                    <a class="nav-link" href="/sweetlab/contacts.php">Контакты</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Корзина</a>
+                    <a class="nav-link" href="/sweetlab/cart.php">Корзина</a>
                 </li>
             </ul>
 

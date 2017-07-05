@@ -1,0 +1,28 @@
+.contacts {
+  background-color: $light-text;
+  .head-contacts {
+    padding-top: 80px;
+    h1 {
+      font-family: Museo300;
+      font-size: 34px;
+    }
+  }
+  .contacts-info {
+    padding-top: 45px;
+    ul {
+      list-style: none;
+      li {
+        b {
+          display: inline-block;
+        }
+        p {
+          display: inline-block;
+        }
+        a {
+
+        }
+      }
+    }
+
+  }
+}

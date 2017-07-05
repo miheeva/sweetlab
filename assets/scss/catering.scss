@@ -1,0 +1,34 @@
+div.wrapper.catering {
+  background-color: $light-text;
+  .catering-item {
+    margin-top: 75px;
+    margin-bottom: 144px;
+    .catering-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      img {
+        width: 87px;
+        height: 87px;
+        display: block;
+        margin-bottom: 65px;
+      }
+      h3 {
+        font-family: Museo300;
+        font-size: 34px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-family: Museo300;
+        font-size: 18px;
+      }
+    }
+    .catering-slider {
+      .carousel {
+        height: 515px;
+      }
+    }
+  }
+
+
+}

@@ -8,12 +8,15 @@
                         <h1>Меню Sweet Lab</h1>
                         <p>Каждый день мы печем кексы, брауни, маффины, попкейки, морковные пироги.</p>
                     </div>
+                    <div class="image-header">
+                        <img src="assets/img/cake1.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
-    <div class="header-background">
+    <div class="header-background" style="background: url('assets/img/menu-back.jpg') 100% 63% no-repeat;">
         <div class="overlay-dark"></div>
     </div>
 </div>
@@ -39,60 +42,8 @@
                     <div class="description-item">
                         <h3>Ванильный капкейк</h3>
                         <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
-                        <p>800 kzt</p>
-                        <a href="#">+</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
-                <div class="menu-item">
-                    <div class="slider-item">
-                        <img src="assets/img/item.jpg" alt="">
-                    </div>
-                    <div class="description-item">
-                        <h3>Ванильный капкейк</h3>
-                        <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
-                        <p>800 kzt</p>
-                        <a href="#">+</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
-                <div class="menu-item">
-                    <div class="slider-item">
-                        <img src="assets/img/item.jpg" alt="">
-                    </div>
-                    <div class="description-item">
-                        <h3>Ванильный капкейк</h3>
-                        <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
-                        <p>800 kzt</p>
-                        <a href="#">+</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
-                <div class="menu-item">
-                    <div class="slider-item">
-                        <img src="assets/img/item.jpg" alt="">
-                    </div>
-                    <div class="description-item">
-                        <h3>Ванильный капкейк</h3>
-                        <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
-                        <p>800 kzt</p>
-                        <a href="#">+</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
-                <div class="menu-item">
-                    <div class="slider-item">
-                        <img src="assets/img/item.jpg" alt="">
-                    </div>
-                    <div class="description-item">
-                        <h3>Ванильный капкейк</h3>
-                        <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
-                        <p>800 kzt</p>
-                        <a href="#">+</a>
+                        <p class="tech-info">800 kzt</p>
+                        <a href="#"></a>
                     </div>
                 </div>
             </div>
@@ -105,8 +56,59 @@
                         <h3>Ванильный капкейк</h3>
                         <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
                         <p class="tech-info">800 kzt</p>
-                        <a href="#">+</a>
-                        <p>heeey</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+                <div class="menu-item">
+                    <div class="slider-item">
+                        <img src="assets/img/item.jpg" alt="">
+                    </div>
+                    <div class="description-item">
+                        <h3>Ванильный капкейк</h3>
+                        <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
+                        <p class="tech-info">800 kzt</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+                <div class="menu-item">
+                    <div class="slider-item">
+                        <img src="assets/img/item.jpg" alt="">
+                    </div>
+                    <div class="description-item">
+                        <h3>Ванильный капкейк</h3>
+                        <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
+                        <p class="tech-info">800 kzt</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+                <div class="menu-item">
+                    <div class="slider-item">
+                        <img src="assets/img/item.jpg" alt="">
+                    </div>
+                    <div class="description-item">
+                        <h3>Ванильный капкейк</h3>
+                        <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
+                        <p class="tech-info">800 kzt</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+                <div class="menu-item">
+                    <div class="slider-item">
+                        <img src="assets/img/item.jpg" alt="">
+                    </div>
+                    <div class="description-item">
+                        <h3>Ванильный капкейк</h3>
+                        <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
+                        <p class="tech-info">800 kzt</p>
+                        <a href="#"></a>
                     </div>
                 </div>
             </div>
@@ -114,3 +116,4 @@
     </div>
 </div>
 
+<?php include 'footer.php' ?>

@@ -25,22 +25,22 @@
                     <a class="nav-link" href="/sweetlab/index.php">Главная</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Меню</a>
+                    <a class="nav-link" href="/sweetlab/menu.php">Меню</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Кейтеринг</a>
+                    <a class="nav-link" href="/sweetlab/catering.php">Кейтеринг</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Корпоративные заказы</a>
+                    <a class="nav-link" href="/sweetlab/corporate.php">Корпоративные заказы</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Organic food</a>
+                    <a class="nav-link" href="/sweetlab/organic.php">Organic food</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
+                    <a class="nav-link" href="/sweetlab/contacts.php">Контакты</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Корзина</a>
+                    <a class="nav-link" href="/sweetlab/cart.php">Корзина</a>
                 </li>
             </ul>
 

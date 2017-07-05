@@ -1,6 +1,7 @@
 div.carousel {
-  height: 123vh;
+  height: 106.4vh;
   ol.carousel-indicators {
+    bottom: 90px;
     li {
       height: 10px;
       max-width: 10px;
@@ -9,15 +10,32 @@ div.carousel {
       border: 1px solid $light-text;
       opacity: .5;
       transition: all .3s;
+      &.active {
+        background-color: $light-text;
+      }
       &:hover {
         background-color: $light-text;
         opacity: 1;
       }
     }
   }
+
   .carousel-controls {
     .carousel-arrow {
-
+      &.carousel-control-prev-icon {
+        margin-top: -47%;
+        margin-left: -59px;
+        width: 58px;
+        height: 58px;
+        background-image: url('../img/left.png');
+      }
+      &.carousel-control-next-icon {
+        margin-top: -47%;
+        margin-left: 104px;
+        width: 58px;
+        height: 58px;
+        background-image: url('../img/right.png');
+      }
     }
   }
   div.carousel-inner {
@@ -29,7 +47,9 @@ div.carousel {
       background-image: url("../../assets/img/slide.jpg");
       background-size: cover;
       .carousel-caption {
-        top: 37%;
+        top: 33.3%;
+        width: 49%;
+        left: 26.2%;
         h3 {
           font-size: 48px;
           font-family: Museo300;
@@ -37,6 +57,7 @@ div.carousel {
         p {
           font-size: 18px;
           font-family: Museo300;
+          margin-top: 15px;
         }
       }
     }

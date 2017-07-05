@@ -5,27 +5,34 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
   }
   .menu-header-img {
     &::after {
-      display: block;
-      content: '';
-      position: absolute;
-      background-image: url("../img/cake1.png");
-      background-size: contain;
-      width: 390px;
-      height: 390px;
-      top: 230px;
-      right: 0px;
-      box-shadow: -31px 31px 91px 21px rgba(18, 22, 25, 0.28);
-      z-index: 11;
+      //display: block;
+      //content: '';
+      //position: absolute;
+      ////background-image: url("../img/cake1.png");
+      //background-size: contain;
+      //width: 390px;
+      //height: 390px;
+      //top: 230px;
+      //right: 0px;
+      //box-shadow: -31px 31px 91px 21px rgba(18, 22, 25, 0.28);
+      //z-index: 11;
 
+    }
+    .image-header {
+      display: block;
+      position: absolute;
+      bottom: -50px;
+      right: 0;
+      z-index: 99;
     }
   }
   .header-background {
     position: relative;
     height: 295px;
-    background: url("../img/menu-back.jpg") 100% 63% no-repeat;
     background-size: cover;
   }
  }
@@ -50,6 +57,7 @@ div.wrapper.menu {
           }
           &:focus {
             text-decoration: none;
+            color: $black-text;
           }
         }
       }
@@ -69,6 +77,11 @@ div.wrapper.menu {
         z-index: 99;
         margin: -20px auto 29px;
         text-align: center;
+        padding-top: 45px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-bottom: 30px;
+        padding-bottom: 65px;
         h3 {
           font-size: 20px;
           font-family: Museo500;
@@ -84,7 +97,24 @@ div.wrapper.menu {
         }
 
         a {
-
+          display: block;
+          width: 40px;
+          height: 40px;
+          border: 1px solid #9a9999;
+          border-radius: 50%;
+          position: relative;
+          float: right;
+          &::before {
+            content: '+';
+            position: absolute;
+            display: block;
+            width: 15px;
+            height: 15px;
+            font-size: 24px;
+            top: -4%;
+            left: 29%;
+            color: #9a9999;
+          }
         }
       }
     }
