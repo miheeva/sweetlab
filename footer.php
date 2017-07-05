@@ -3,18 +3,16 @@
     <div class="wrapper">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 logo">
                     <img class="footer-logo" src="assets/img/logo.png" alt="">
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 location">
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <ul class="social">
                                 <li><a href="#"><img src="assets/img/facebook.png" alt=""></a></li>
                                 <li><a href="#"><img src="assets/img/instagram.png" alt=""></a></li>
                             </ul>
-
-
                         </div>
                     </div>
                     <div class="row">
@@ -26,7 +24,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-menu">
                     <ul>
                         <li><a href="#">Главная</a></li>
                         <li><a href="#">Меню</a></li>
@@ -34,7 +32,7 @@
                         <li><a href="#">Organic food</a></li>
                     </ul>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 footer-menu secondM">
                     <ul>
                         <li><a href="#">Корпоративные заказы</a></li>
                         <li><a href="#">Контакты</a></li>

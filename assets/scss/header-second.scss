@@ -1,19 +1,19 @@
 header.second-header {
   a.navbar-brand {
-    color: $black-text !important;
+    color: #111010 !important;
   }
   ul.navbar-nav {
     li.nav-item {
       &:hover {
         a.nav-link {
-          color: $black-text;
+          color: #111010;
         }
       }
       a.nav-link {
-        color: $black-text;
+        color: #111010;
         &:hover {
           &::after {
-            background-color: $black-text;
+            background-color: #111010;
           }
         }
       }

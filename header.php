@@ -12,6 +12,7 @@
     <title>The Sweet Lab</title>
 </head>
 <body>
+
 <header class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
     <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

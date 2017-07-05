@@ -37,7 +37,7 @@
   }
  }
 div.wrapper.menu {
-  background-color: $light-text;
+  background-color: #fff;
   .container {
     ul.menu-link {
       list-style: none;
@@ -51,13 +51,13 @@ div.wrapper.menu {
           text-transform: uppercase;
           font-family: Museo300;
           &:hover {
-            color: $black-text;
+            color: #111010;
             transition: all .3s;
             text-decoration: none;
           }
           &:focus {
             text-decoration: none;
-            color: $black-text;
+            color: #111010;
           }
         }
       }
@@ -71,7 +71,7 @@ div.wrapper.menu {
         }
       }
       .description-item {
-        background-color: $light-text;
+        background-color: #fff;
         width: 90%;
         position: relative;
         z-index: 99;
@@ -90,7 +90,7 @@ div.wrapper.menu {
           font-size: 16px;
           text-transform: lowercase;
           font-family: Museo300;
-          color: $black-text;
+          color: #111010;
           &.tech-info {
           color: #9a9999;
           }

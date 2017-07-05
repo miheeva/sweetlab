@@ -4,7 +4,7 @@ html, body {
   background-image: url("../img/back.jpg");
   background-repeat: repeat;
   background-attachment: fixed;
-  color: $black-text !important;
+  color: #111010 !important;
   .container {
     width: 997px !important;
   }
@@ -23,7 +23,7 @@ header {
   position: absolute !important;
   top: 10px;
   a.navbar-brand {
-    color: $light-text !important;
+    color: #fff !important;
     font-size: 22px;
     text-transform: uppercase;
     padding-top: 8px;
@@ -45,11 +45,11 @@ header {
       padding-right: 8px;
       &:hover {
         a.nav-link {
-          color: $light-text;
+          color: #fff;
         }
       }
       a.nav-link {
-        color: $light-text;
+        color: #fff;
         font-size: 14px;
         position: relative;
         font-family: Museo500;
@@ -66,14 +66,14 @@ header {
             content: '';
             display: block;
             height: 2px;
-            background-color: $light-text;
+            background-color: #fff;
             width: 40px;
             background-color: #ffffff;
             margin: 0 auto;
           }
         }
         &:focus {
-          color: $light-text;
+          color: #fff;
         }
       }
     }
