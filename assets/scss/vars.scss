@@ -23,7 +23,9 @@
 
 $light-text: #ffffff;
 $black-text: #111010;
-
+.hiddenPC {
+  display: none;
+}
 .no_boot {
   margin-left: 0 !important;
   margin-right: 0 !important;

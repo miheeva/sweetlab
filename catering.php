@@ -4,9 +4,15 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 menu-header-img">
                     <div class="row">
-                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5 menu-header">
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-xs-8 menu-header">
                             <h1>Кейтеринг</h1>
                             <p>Мы рады сделать ваше торжество слаще</p>
+                            <div class="cake">
+                                <img src="assets/img/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="arrow">
+                            <div class="arrowImg"></div>
                         </div>
                         <div class="image-header">
                             <img src="assets/img/cake3.png" alt="">
@@ -40,13 +46,13 @@
                                 </ol>
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active" style="background-image: url('assets/img/c-1.jpg')">
-                                        <div class="overlay"></div>
+
                                     </div>
                                     <div class="carousel-item" style="background-image: url('assets/img/c-1.jpg')">
-                                        <div class="overlay"></div>
+
                                     </div>
                                     <div class="carousel-item" style="background-image: url('assets/img/c-1.jpg')">
-                                        <div class="overlay"></div>
+
                                     </div>
 
                                 </div>
@@ -71,13 +77,13 @@
                                 </ol>
                                 <div class="carousel-inner" role="listbox">
                                     <div class="carousel-item active" style="background-image: url('assets/img/c-2.jpg')">
-                                        <div class="overlay"></div>
+<!--                                        <div class="overlay"></div>-->
                                     </div>
                                     <div class="carousel-item" style="background-image: url('assets/img/c-2.jpg')">
-                                        <div class="overlay"></div>
+
                                     </div>
                                     <div class="carousel-item" style="background-image: url('assets/img/c-2.jpg')">
-                                        <div class="overlay"></div>
+
                                     </div>
 
                                 </div>

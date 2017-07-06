@@ -15,7 +15,9 @@
 <header class="second-header navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
     <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-icon"></span>
+            <span class="navbar-icon"></span>
+            <span class="navbar-icon"></span>
         </button>
         <a class="navbar-brand" href="#"><img src="assets/img/logo-dark.png" alt=""></a>
 

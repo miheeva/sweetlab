@@ -6,8 +6,35 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
+    h1 {
+      font-size: 48px;
+      font-family: Museo300;
+    }
+    p {
+      font-size: 18px;
+      font-family: Museo300;
+    }
+    div.cake {
+      position: absolute;
+      bottom: 15%;
+      left: 35%;
+    }
+
   }
   .menu-header-img {
+    div.arrow {
+      position: absolute;
+      width: 100%;
+      bottom: 35px;
+      left: 0;
+      div.arrowImg {
+        background: url("../img/arrow-down.png") no-repeat;
+        width: 45px;
+        height: 24px;
+        margin: 0 auto;
+      }
+
+    }
     &::after {
       //display: block;
       //content: '';
@@ -25,7 +52,7 @@
     .image-header {
       display: block;
       position: absolute;
-      bottom: -50px;
+      bottom: -120px;
       right: 0;
       z-index: 99;
     }
@@ -33,7 +60,7 @@
   .header-background {
     position: relative;
     height: 295px;
-    background-size: cover;
+    background-size: cover !important;
   }
  }
 div.wrapper.menu {
@@ -45,7 +72,7 @@ div.wrapper.menu {
       justify-content: center;
       margin-bottom: 0 !important;
       li {
-          padding: 30px 17px;
+        padding: 30px 17px;
         a {
           color: #9a9999;
           text-transform: uppercase;
@@ -62,61 +89,184 @@ div.wrapper.menu {
         }
       }
     }
-    .menu-item {
-      .slider-item {
-        position: relative;
-        z-index: 9;
-        img {
-          width: 100%;
+    .menu-item.slider {
+      &:hover {
+        .overlay {
+          display: none;
         }
       }
-      .description-item {
-        background-color: #fff;
-        width: 90%;
-        position: relative;
-        z-index: 99;
-        margin: -20px auto 29px;
-        text-align: center;
-        padding-top: 45px;
-        padding-left: 35px;
-        padding-right: 35px;
-        margin-bottom: 30px;
-        padding-bottom: 65px;
-        h3 {
-          font-size: 20px;
-          font-family: Museo500;
+      .carousel {
+        height: 400px !important;
+        .carousel-control-prev-icon {
+          background-image: url("../img/left-menu.png");
+          margin-top: -18%;
+          margin-right: -38px;
+          width: 11px;
+          height: 20px;
         }
-        p {
-          font-size: 16px;
-          text-transform: lowercase;
-          font-family: Museo300;
-          color: #111010;
-          &.tech-info {
+        .carousel-control-next-icon {
+          background-image: url("../img/right-menu.png");
+          margin-top: -18%;
+          margin-left: 25px;
+          width: 11px;
+          height: 20px;
+        }
+      }
+    }
+    .slider-item {
+      position: relative;
+      z-index: 9;
+      img {
+        width: 100%;
+      }
+    }
+    .description-item {
+      background-color: #fff;
+      width: 90%;
+      position: relative;
+      z-index: 99;
+      margin: -20px auto 29px;
+      text-align: center;
+      padding-top: 45px;
+      padding-left: 35px;
+      padding-right: 35px;
+      margin-bottom: 30px;
+      padding-bottom: 65px;
+      h3 {
+        font-size: 20px;
+        font-family: Museo500;
+      }
+      p {
+        font-size: 16px;
+        text-transform: lowercase;
+        font-family: Museo300;
+        color: #111010;
+        &.tech-info {
           color: #9a9999;
-          }
         }
+      }
 
-        a {
+      a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #9a9999;
+        border-radius: 50%;
+        position: relative;
+        float: right;
+        &::before {
+          content: '+';
+          position: absolute;
           display: block;
-          width: 40px;
-          height: 40px;
-          border: 1px solid #9a9999;
-          border-radius: 50%;
-          position: relative;
-          float: right;
-          &::before {
-            content: '+';
-            position: absolute;
-            display: block;
-            width: 15px;
-            height: 15px;
-            font-size: 24px;
-            top: -4%;
-            left: 29%;
-            color: #9a9999;
-          }
+          width: 15px;
+          height: 15px;
+          font-size: 24px;
+          top: -4%;
+          left: 29%;
+          color: #9a9999;
         }
       }
     }
   }
 }
+  @media screen and (max-width: 736px) {
+    .page-header .menu-header {
+      height: 420px;
+      padding-top: 10%;
+    }
+    .wrapper.page-header {
+      overflow-x: hidden;
+
+      .menu-header-img .image-header {
+        bottom: -85px;
+        right: -150px;
+        width: 350px;
+        height: 350px;
+        img {
+          width: 100%;
+        }
+
+      }
+    }
+  }
+@media screen and (max-width: 568px) {
+
+    .menu-header-img .image-header {
+      bottom: -85px;
+      right: -150px;
+      width: 300px !important;
+      height: 300px !important;
+    }
+}
+
+  @media screen and (max-width: 414px) {
+    .page-header .menu-header {
+      height: 475px;
+      text-align: center;
+      h1 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 16px;
+      }
+      .cake {
+        width: 100%;
+        left: 0 !important;
+        bottom: 16% !important;
+        img {
+          width: 38px;
+          height: 48px;
+        }
+      }
+      .header-background {
+        height: 235px;
+      }
+
+    }
+    .arrow {
+      bottom: 20px !important;
+      .arrowImg {
+        width: 30px !important;
+        height: 18px !important;
+        background-size: contain !important;
+      }
+    }
+    .image-header {
+      display: none !important;
+    }
+    .wrapper.menu {
+      .dropdown {
+        button.button-menu-m {
+            width: 100%;
+            border: none;
+            background: transparent !important;
+            box-shadow: none !important;
+          font-size: 18px;
+          text-align: center;
+          font-family: Museo900;
+          padding: 20px 0;
+            &:focus {
+              border: none !important;
+              background: transparent !important;
+              box-shadow: none !important;
+            }
+          }
+        ul.dropdown-menu {
+          width: 100%;
+          top: 0;
+          margin: 0;
+          left: 0;
+          font-size: 18px;
+          text-align: center;
+          font-family: Museo900;
+          li {
+            padding: 10px 0;
+            a {
+
+            }
+          }
+        }
+
+        }
+      }
+    }

@@ -1,5 +1,9 @@
+.header-background.map {
+  height: 580px;
+}
 .contacts {
   background-color: #fff;
+
   .head-contacts {
     padding-top: 80px;
     h1 {
@@ -24,5 +28,16 @@
       }
     }
 
+  }
+}
+@media screen and (max-width: 414px) {
+  .contacts .head-contacts {
+    padding-left: 40px;
+  }
+  .contacts-page {
+    .menu-header .cake img {
+      width: 54px;
+      height: 48px;
+    }
   }
 }

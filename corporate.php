@@ -4,9 +4,15 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 menu-header-img">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 menu-header">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-8 col-xs-8 menu-header">
                             <h1>Корпоративные заказы</h1>
                             <p>С нами подарки вашим клиентам и партнерам станут самым легким процессом. </p>
+                            <div class="cake">
+                                <img src="assets/img/3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="arrow">
+                            <div class="arrowImg"></div>
                         </div>
                         <div class="image-header">
                             <img src="assets/img/cake2.png" alt="">

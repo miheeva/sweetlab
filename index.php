@@ -42,7 +42,7 @@
         </div>
     </div>
     <div class="section-catering" data-paroller-factor="0.15" data-paroller-type="foreground" data-paroller-direction="vertical">
-        <div class="text-content">
+        <div class="text-content hiddenPC">
             <h2 class="section-header">Кейтеринг</h2>
             <p class="section-description">Мы рады сделать ваше торжество слаще</p>
             <a href="#" class="section-button white-btn">подробнее</a>
@@ -70,7 +70,7 @@
         </div>
     </div>
     <div class="section-organic" data-paroller-factor="0.15" data-paroller-type="foreground" data-paroller-direction="vertical">
-        <div class="text-content">
+        <div class="text-content hiddenPC">
             <h2 class="section-header">Organic food</h2>
             <p class="section-description">Мы заботимся о вас</p>
             <a href="#" class="section-button white-btn">посмотреть меню</a>
