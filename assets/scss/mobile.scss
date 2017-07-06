@@ -14,6 +14,9 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .hiddenPC {
+    display: block;
+  }
   .no-offset {
     padding: 0!important;
     margin: 0 !important;

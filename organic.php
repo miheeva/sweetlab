@@ -14,7 +14,7 @@
                         <div class="arrow">
                             <div class="arrowImg"></div>
                         </div>
-                        <div class="image-header" style="bottom: -175px;">
+                        <div class="image-header" style="bottom: -175px;" data-paroller-factor="0.3" data-paroller-type="foreground" data-paroller-direction="vertical">
                             <img src="assets/img/carrot.png" alt="">
                         </div>
                     </div>
@@ -22,7 +22,7 @@
             </div>
 
         </div>
-        <div class="header-background" style="background: url('assets/img/organic-back.jpg') 100% 63% no-repeat;">
+        <div class="header-background" style="background: url('assets/img/organic-back.jpg') 100% 63% no-repeat;" data-paroller-factor="0.3" data-paroller-type="background" data-paroller-direction="vertical">
             <div class="overlay-dark"></div>
         </div>
     </div>
@@ -38,10 +38,10 @@
                         <li><a href="#">Фрукты</a></li>
                         <li><a href="#">Ягоды</a></li>
                     </ul>
-                    <button class="button-menu-m btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="button-menu-m btn btn-secondary dropdown-toggle hiddenPC" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Показать все
                     </button>
-                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenuButton">
+                    <ul class="dropdown-menu hiddenPC" role="menu" aria-labelledby="dropdownMenuButton">
                         <li><a href="#" class="dropdown-item">Показать все</a></li>
                         <li><a href="#" class="dropdown-item">Салаты</a></li>
                         <li><a href="#" class="dropdown-item">Хлебцы</a></li>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                     <div class="menu-item">
                         <div class="slider-item">
                             <img src="assets/img/item.jpg" alt="">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                     <div class="menu-item">
                         <div class="slider-item">
                             <img src="assets/img/item.jpg" alt="">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                     <div class="menu-item">
                         <div class="slider-item">
                             <img src="assets/img/item.jpg" alt="">
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                     <div class="menu-item">
                         <div class="slider-item">
                             <img src="assets/img/item.jpg" alt="">
@@ -104,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                     <div class="menu-item">
                         <div class="slider-item">
                             <img src="assets/img/item.jpg" alt="">
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                     <div class="menu-item">
                         <div class="slider-item">
                             <img src="assets/img/item.jpg" alt="">

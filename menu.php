@@ -16,7 +16,7 @@
                     <div class="arrow">
                         <div class="arrowImg"></div>
                     </div>
-                    <div class="image-header">
+                    <div class="image-header" data-paroller-factor="0.3" data-paroller-type="foreground" data-paroller-direction="vertical">
                         <img src="assets/img/cake1.png" alt="">
                     </div>
                 </div>
@@ -24,7 +24,7 @@
         </div>
 
     </div>
-    <div class="header-background" style="background: url('assets/img/menu-back.jpg') 50% 63% no-repeat;">
+    <div class="header-background" style="background: url('assets/img/menu-back.jpg') 50% 63% no-repeat;" data-paroller-factor="1" data-paroller-type="background" data-paroller-direction="vertical">
         <div class="overlay-dark"></div>
     </div>
 </div>
@@ -39,10 +39,10 @@
                     <li><a href="#">Завтраки</a></li>
                     <li><a href="#">Напитки</a></li>
                 </ul>
-                <button class="button-menu-m btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="button-menu-m btn btn-secondary dropdown-toggle hiddenPC" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Показать все
                 </button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenuButton">
+                <ul class="dropdown-menu hiddenPC" role="menu" aria-labelledby="dropdownMenuButton">
                     <li><a href="#" class="dropdown-item">Показать все</a></li>
                     <li><a href="#" class="dropdown-item">Капкейки</a></li>
                     <li><a href="#" class="dropdown-item">Другие десерты</a></li>
@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                 <div class="menu-item slider">
                     <div id="m1" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                 <div class="menu-item slider">
                     <div id="m2" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
@@ -117,8 +117,21 @@
                         <a href="#"></a>
                     </div>
                 </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+            </div data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
+                <div class="menu-item">
+                    <div class="slider-item">
+                        <img src="assets/img/item.jpg" alt="">
+                    </div>
+                    <div class="description-item">
+                        <h3>Ванильный капкейк</h3>
+                        <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
+                        <p class="tech-info">800 kzt</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                 <div class="menu-item">
                     <div class="slider-item">
                         <img src="assets/img/item.jpg" alt="">
@@ -131,7 +144,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                 <div class="menu-item">
                     <div class="slider-item">
                         <img src="assets/img/item.jpg" alt="">
@@ -144,20 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
-                <div class="menu-item">
-                    <div class="slider-item">
-                        <img src="assets/img/item.jpg" alt="">
-                    </div>
-                    <div class="description-item">
-                        <h3>Ванильный капкейк</h3>
-                        <p>тесто с арахисовым маслом, крем с арахисовым маслом и клубничным джемом</p>
-                        <p class="tech-info">800 kzt</p>
-                        <a href="#"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 no_boot" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                 <div class="menu-item">
                     <div class="slider-item">
                         <img src="assets/img/item.jpg" alt="">

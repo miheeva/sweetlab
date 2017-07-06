@@ -14,7 +14,7 @@
                         <div class="arrow">
                             <div class="arrowImg"></div>
                         </div>
-                        <div class="image-header">
+                        <div class="image-header" data-paroller-factor="0.3" data-paroller-type="foreground" data-paroller-direction="vertical">
                             <img src="assets/img/cake3.png" alt="">
                         </div>
                     </div>
@@ -22,7 +22,7 @@
             </div>
 
         </div>
-        <div class="header-background" style="background: url('assets/img/catering-back.jpg') 100% 63% no-repeat;">
+        <div class="header-background" style="background: url('assets/img/catering-back.jpg') 100% 63% no-repeat;" data-paroller-factor="0.3" data-paroller-type="background" data-paroller-direction="vertical">
             <div class="overlay-dark"></div>
         </div>
     </div>
@@ -31,13 +31,13 @@
             <div class="row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="row catering-item">
-                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5 catering-text">
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5 catering-text" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                             <h3>Ваше торжество
                                 будет вкусным
                                 и красочным</h3>
                             <p><b>The Sweet Lab</b> распологает большим опытом, чтобы создать запоминающийся акцент вашего праздника с помощью десертов: от пирамид из капкейков до праздничных тортов. </p>
                         </div>
-                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7 catering-slider">
+                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7 catering-slider" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                             <div id="c1" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#c1" data-slide-to="0" class="active"></li>
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                     <div class="row catering-item">
-                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7 catering-slider">
+                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-xs-7 catering-slider" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                             <div id="c2" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#c2" data-slide-to="0" class="active"></li>
@@ -97,7 +97,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5 catering-text">
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5 catering-text" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="horizontal">
                             <h3>Детские праздники
                                 для нас отдельная
                                 категория торжеств</h3>
