@@ -2,62 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8185a0e5-398e-4200-807a-c13920226531" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parts/slider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/menu-page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/1.png" afterPath="$PROJECT_DIR$/assets/img/1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/2.png" afterPath="$PROJECT_DIR$/assets/img/2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/3.png" afterPath="$PROJECT_DIR$/assets/img/3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/4.png" afterPath="$PROJECT_DIR$/assets/img/4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/5.png" afterPath="$PROJECT_DIR$/assets/img/5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/arrow-down.png" afterPath="$PROJECT_DIR$/assets/img/arrow-down.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/back.jpg" afterPath="$PROJECT_DIR$/assets/img/back.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/bread.png" afterPath="$PROJECT_DIR$/assets/img/bread.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/c-1.jpg" afterPath="$PROJECT_DIR$/assets/img/c-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/c-2.jpg" afterPath="$PROJECT_DIR$/assets/img/c-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/cake1.png" afterPath="$PROJECT_DIR$/assets/img/cake1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/cake2.png" afterPath="$PROJECT_DIR$/assets/img/cake2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/cake3.png" afterPath="$PROJECT_DIR$/assets/img/cake3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/carrot.png" afterPath="$PROJECT_DIR$/assets/img/carrot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/catering-back.jpg" afterPath="$PROJECT_DIR$/assets/img/catering-back.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/catering.jpg" afterPath="$PROJECT_DIR$/assets/img/catering.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/corp-1.jpg" afterPath="$PROJECT_DIR$/assets/img/corp-1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/corp-gift.png" afterPath="$PROJECT_DIR$/assets/img/corp-gift.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/corporate-back.jpg" afterPath="$PROJECT_DIR$/assets/img/corporate-back.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/facebook.png" afterPath="$PROJECT_DIR$/assets/img/facebook.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/footer.jpg" afterPath="$PROJECT_DIR$/assets/img/footer.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/instagram.png" afterPath="$PROJECT_DIR$/assets/img/instagram.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/item.jpg" afterPath="$PROJECT_DIR$/assets/img/item.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/left-menu.png" afterPath="$PROJECT_DIR$/assets/img/left-menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/left.png" afterPath="$PROJECT_DIR$/assets/img/left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo-dark.png" afterPath="$PROJECT_DIR$/assets/img/logo-dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo.png" afterPath="$PROJECT_DIR$/assets/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/menu-back.jpg" afterPath="$PROJECT_DIR$/assets/img/menu-back.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/organic-back.jpg" afterPath="$PROJECT_DIR$/assets/img/organic-back.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/organic.jpg" afterPath="$PROJECT_DIR$/assets/img/organic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/right-menu.png" afterPath="$PROJECT_DIR$/assets/img/right-menu.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/right.png" afterPath="$PROJECT_DIR$/assets/img/right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/slide.jpg" afterPath="$PROJECT_DIR$/assets/img/slide.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parts/card/mini_card.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/carousel.css" afterPath="$PROJECT_DIR$/assets/css/carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/footer.css" afterPath="$PROJECT_DIR$/assets/css/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/header-second.css" afterPath="$PROJECT_DIR$/assets/css/header-second.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/header.css" afterPath="$PROJECT_DIR$/assets/css/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/menu.css" afterPath="$PROJECT_DIR$/assets/css/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/sections.css" afterPath="$PROJECT_DIR$/assets/css/sections.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="$PROJECT_DIR$/assets/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/carousel.scss" afterPath="$PROJECT_DIR$/assets/scss/carousel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/footer.scss" afterPath="$PROJECT_DIR$/assets/scss/footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/header-second.scss" afterPath="$PROJECT_DIR$/assets/scss/header-second.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/header.scss" afterPath="$PROJECT_DIR$/assets/scss/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/menu.scss" afterPath="$PROJECT_DIR$/assets/scss/menu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/sections.scss" afterPath="$PROJECT_DIR$/assets/scss/sections.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/style.scss" afterPath="$PROJECT_DIR$/assets/scss/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.php" afterPath="$PROJECT_DIR$/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/card_helper.js" afterPath="$PROJECT_DIR$/assets/js/card_helper.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,23 +26,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="247">
+              <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="card_helper.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="card_helper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/card_helper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="595">
+              <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mini_card.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parts/card/mini_card.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1233">
+              <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#703#0#PHP" expanded="true" />
+                <marker date="1500409991193" expanded="true" signature="2596:2603" ph="×" />
               </folding>
             </state>
           </provider>
@@ -211,12 +171,13 @@
         <option value="$PROJECT_DIR$/assets/scss/header.scss" />
         <option value="$PROJECT_DIR$/assets/scss/header-second.scss" />
         <option value="$PROJECT_DIR$/assets/js/custom.js" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/assets/scss/footer.scss" />
         <option value="$PROJECT_DIR$/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/assets/scss/card.scss" />
         <option value="$PROJECT_DIR$/parts/card/card.php" />
         <option value="$PROJECT_DIR$/assets/js/card_helper.js" />
+        <option value="$PROJECT_DIR$/parts/card/midi_card.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
       </list>
     </option>
   </component>
@@ -276,7 +237,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="parts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sweetlab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sweetlab" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="card" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,17 +371,18 @@
       <workItem from="1499374065419" duration="1000" />
       <workItem from="1499374283034" duration="21423000" />
       <workItem from="1499689825064" duration="14782000" />
-      <workItem from="1500405200579" duration="1375000" />
+      <workItem from="1500405200579" duration="4568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40542000" />
+    <option name="totallyTimeSpent" value="43735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1456" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15544413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15544413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -432,14 +412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -767,14 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -820,11 +784,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/card_helper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="595">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parts/card/mini_card.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1233">
+          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#703#0#PHP" expanded="true" />
+            <marker date="1500409991193" expanded="true" signature="2596:2603" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
