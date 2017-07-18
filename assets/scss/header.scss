@@ -39,16 +39,31 @@ header {
     margin-left: 82px;
     margin-top: 14px;
   }
-  ul.navbar-nav {
-    li.nav-item {
+  ul#menu-header {
+    #wpmenucartli {
+      a {
+        span.count {
+          border-radius: 50%;
+          background: #fff;
+          color: #111010;
+          width: 27px;
+          height: 27px;
+          display: inline-flex !important;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+    li {
       padding-left: 8px;
       padding-right: 8px;
+
       &:hover {
-        a.nav-link {
+        a {
           color: #fff;
         }
       }
-      a.nav-link {
+      a {
         color: #fff;
         font-size: 14px;
         position: relative;
@@ -62,6 +77,7 @@ header {
           transition: all .3s;
         }
         &:hover {
+          text-decoration: none;
           &::after {
             content: '';
             display: block;
@@ -82,5 +98,3 @@ header {
 .container-fluid {
   height: 100%;
 }
-
-

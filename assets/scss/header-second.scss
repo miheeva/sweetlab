@@ -1,17 +1,36 @@
 header.second-header {
+
   a.navbar-brand {
     color: #111010 !important;
+    img {
+      filter: invert(100%);
+    }
   }
-  ul.navbar-nav {
-    li.nav-item {
+  ul#menu-header {
+    #wpmenucartli {
+      a {
+        span.count {
+          border-radius: 50%;
+          background: #111010;
+          color: #fff;
+          width: 27px;
+          height: 27px;
+          display: inline-flex !important;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+    li {
       &:hover {
-        a.nav-link {
+        a {
           color: #111010;
         }
       }
-      a.nav-link {
+      a {
         color: #111010;
         &:hover {
+          text-decoration: none;
           &::after {
             background-color: #111010;
           }

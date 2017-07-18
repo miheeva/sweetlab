@@ -8,7 +8,7 @@ div.carousel {
       width: 10px;
       background-color: transparent;
       border: 1px solid #fff;
-      opacity: .5;
+      opacity: 1;
       transition: all .3s;
       &.active {
         background-color: #fff;
@@ -21,6 +21,7 @@ div.carousel {
   }
 
   .carousel-controls {
+    opacity: 1;
     .carousel-arrow {
       &.carousel-control-prev-icon {
         margin-top: -47%;
