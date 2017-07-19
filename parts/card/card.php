@@ -82,8 +82,8 @@
                                     </div>
 
 
-                                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 product-quantity" data-title="<?php esc_attr_e( 'Quantity', 'woocommerce' ); ?>">
-                                        <span id="qantityDeecriment" class="quantity_controls">-</span>
+                                    <div class="col-xl-3 col-lg-2 col-md-3 col-sm-2 col-xs-2 product-quantity" data-title="<?php esc_attr_e( 'Quantity', 'woocommerce' ); ?>">
+                                        <span id="qantityDeecriment" class="quantity_controls pull-left">-</span>
                                         <?php
                                         if ( $_product->is_sold_individually() ) {
                                             $product_quantity = sprintf( '1 <input type="hidden" name="cart[%s][qty]" value="1" />', $cart_item_key );
@@ -101,7 +101,7 @@
                                         <span id="quantityIncreement" class="quantity_controls">+</span>
                                     </div>
 
-                                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 product-subtotal" data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>">
+                                    <div class="col-xl-2 col-lg-1 col-md-2 col-sm-1 col-xs-1 product-subtotal" data-title="<?php esc_attr_e( 'Total', 'woocommerce' ); ?>">
                                         <?php
                                         echo apply_filters( 'woocommerce_cart_item_subtotal', WC()->cart->get_product_subtotal( $_product, $cart_item['quantity'] ), $cart_item, $cart_item_key );
                                         ?>
@@ -109,7 +109,7 @@
                                     <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 product-remove">
                                         <?php
                                         echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
-                                            '<a href="%s" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s">&times;</a>',
+                                            '<a href="%s" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s"><img src="/wordpress/wp-content/themes/sweetlab/assets/img/trash.png"/> </a>',
                                             esc_url( WC()->cart->get_remove_url( $cart_item_key ) ),
                                             __( 'Remove this item', 'woocommerce' ),
                                             esc_attr( $product_id ),

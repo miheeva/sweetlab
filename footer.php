@@ -64,5 +64,6 @@
 <?php wp_footer(); ?>
 <script src="<?= get_template_directory_uri();?>/assets/paroller/dist/jquery.paroller.min.js"></script>
 <script src="<?= get_template_directory_uri();?>/assets/js/custom.js"></script>
+
 </body>
 </html>

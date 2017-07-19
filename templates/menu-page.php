@@ -56,12 +56,13 @@
                 <?php woocommerce_show_product_sale_flash( $post, $product ); ?>
 
                 <div class="menu-item slider">
-                    <div id="m1" class="carousel slide" data-ride="carousel">
+                    <div id="m1<?=$loop->post->ID;?>" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active" style="background-image: url('<?php the_post_thumbnail_url($loop->post->ID)?>')">
                                 <div class="overlay"></div>
                             </div>
-                            <?php if ( ! defined( 'ABSPATH' ) ) {
+                            <?php
+                            if ( ! defined( 'ABSPATH' ) ) {
                             exit;
                             }
 
@@ -93,11 +94,11 @@
 
 
                         </div>
-                        <a class="carousel-control-prev carousel-controls" href="#m1" role="button" data-slide="prev">
+                        <a class="carousel-control-prev carousel-controls" href="#m1<?=$loop->post->ID;?>" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon carousel-arrow" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next carousel-controls" href="#m1" role="button" data-slide="next">
+                        <a class="carousel-control-next carousel-controls" href="#m1<?=$loop->post->ID;?>" role="button" data-slide="next">
                             <span class="carousel-control-next-icon carousel-arrow" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -105,16 +106,17 @@
 
                     <div class="description-item">
                         <h3><?php the_title(); ?></h3>
-                        <p><?php the_content(); ?></p>
+                        <div class="item_discription"><?php the_content(); ?></div>
                         <p class="tech-info"><?php echo $product->get_price_html(); ?></p>
                         <?php woocommerce_template_loop_add_to_cart( $loop->post, $product ); ?>
                     </div>
                 </div>
-                <?php endwhile; ?>
-                <!-- Сброс данных запроса -->
-                <?php wp_reset_query(); ?>
+
 
             </div>
+            <?php endwhile; ?>
+            <!-- Сброс данных запроса -->
+            <?php wp_reset_query(); ?>
         </div>
     </div>
 </div>

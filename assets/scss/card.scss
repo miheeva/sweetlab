@@ -3,3 +3,105 @@
     cursor: pointer;
   }
 }
+
+#card_window {
+  .cart-content {
+    .container {
+      .header {
+        padding-bottom: 30px;
+        h3 {
+          font-size: $mediumFontSize;
+        }
+      }
+    }
+    .cart_item {
+      padding: 20px 0;
+      border-top: 1px solid $lightGray;
+      border-bottom: 1px solid $lightGray;
+      margin-top: -1px;
+      .product-thumbnail {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .product-quantity {
+        padding: 0;
+        .quantity_controls {
+          width: 40px;
+          height: 40px;
+          background: $quantityCol;
+          @include flexAlign();
+        }
+        #qantityDeecriment {
+            float: left;
+        }
+        #quantityIncreement {
+          float: left;
+        }
+        .quantity {
+          float: left;
+          input[type="number"] {
+            @include clearBrowserStyle();
+            padding-left: 10px;
+          }
+        }
+      }
+      .product-subtotal {
+        span {
+          font-size: $priceFontSize;
+        }
+      }
+      .product-remove {
+          text-align: center;
+      }
+    }
+    .cart-subtotal {
+      display: none;
+    }
+    .cart_totals {
+      padding-top: 25px;
+      h2 {
+        display: none;
+      }
+      .order-total {
+        th, span {
+          font-size: $priceFontSize;
+        }
+        th {
+          &::after {
+            content: ':';
+          }
+        }
+        strong {
+          & > span {
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+    .cart-collaterals {
+      width: 100%;
+      .wc-proceed-to-checkout {
+        padding-top: 40px;
+        a {
+          display: block;
+          background: $black;
+          font-size: $smallFontSize;
+          color: $white;
+          width: 100%;
+          padding: 15px 0;
+          text-align: center;
+          text-decoration: none !important;
+          text-transform: uppercase;
+          font-weight: 600;
+          @include transition();
+          &:hover {
+            background: darken($black, 5%);
+          }
+        }
+      }
+    }
+  }
+}
+.add_to_cart_button {
+  font-size: 0 !important;
+}

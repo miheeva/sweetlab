@@ -1,0 +1,27 @@
+@mixin flexAlign($justify-content: center, $align-items: center) {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  -webkit-align-items: $align-items;
+}
+@mixin clearBrowserStyle() {
+  -webkit-appearance: none;
+}
+@mixin transition($prop: all 0.2s) {
+  transition: $prop;
+  -webkit-transition: $prop;
+  -moz-transition: $prop;
+  -o-transition: $prop;
+  -ms-transition: $prop;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
