@@ -66,6 +66,9 @@
 div.wrapper.menu {
   background-color: #f5f4f4;
   .container {
+    .tab-content {
+      width: 100%;
+    }
     ul.menu-link {
       list-style: none;
       display: flex;
@@ -77,6 +80,8 @@ div.wrapper.menu {
           color: #9a9999;
           text-transform: uppercase;
           font-family: Museo300;
+          border-color: transparent;
+          background-color: #f4f5f5;
           &:hover {
             color: #111010;
             transition: all .3s;
@@ -90,19 +95,32 @@ div.wrapper.menu {
       }
     }
     .menu-item.slider {
+      transition: all .3s;
       &:hover {
         .overlay {
-          display: none;
+          opacity: 0;
+        }
+        .description-item {
+          box-shadow: 0px 21px 90px 0px rgba(25,45,61,0.18);
         }
       }
       .carousel {
         height: 400px !important;
+        &:hover {
+          .carousel-control-next-icon, .carousel-control-prev-icon {
+            opacity: 1 !important;
+          }
+        }
         .carousel-control-prev-icon {
           background-image: url("../img/left-menu.png");
           margin-top: -18%;
           margin-right: -38px;
           width: 11px;
           height: 20px;
+          opacity: 0 !important;
+          transition: opacity .3s;
+
+
         }
         .carousel-control-next-icon {
           background-image: url("../img/right-menu.png");
@@ -110,6 +128,8 @@ div.wrapper.menu {
           margin-left: 25px;
           width: 11px;
           height: 20px;
+          opacity: 0 !important;
+          transition: opacity .3s;
         }
       }
       .item_discription {
@@ -138,6 +158,7 @@ div.wrapper.menu {
       padding-right: 35px;
       margin-bottom: 30px;
       padding-bottom: 65px;
+      transition: all .3s;
       h3 {
         font-size: 20px;
         font-family: Museo500;
@@ -160,6 +181,7 @@ div.wrapper.menu {
         border-radius: 50%;
         position: relative;
         float: right;
+        font-size: 0;
         &::before {
           content: '+';
           position: absolute;
@@ -175,6 +197,45 @@ div.wrapper.menu {
     }
   }
 }
+@media screen and (max-width: 991px) {
+  .wrapper.menu {
+    .dropdown {
+      button.button-menu-m {
+        width: 100%;
+        border: none;
+        background: transparent !important;
+        box-shadow: none !important;
+        font-size: 18px;
+        text-align: center;
+        font-family: Museo900;
+        padding: 20px 0;
+        &:focus {
+          border: none !important;
+          background: transparent !important;
+          box-shadow: none !important;
+        }
+      }
+      ul {
+        width: 100%;
+        top: 0;
+        margin: 0;
+        left: 0;
+        font-size: 18px;
+        text-align: center;
+        font-family: Museo900;
+        li {
+          padding: 10px 0;
+          a {
+            border-color: transparent !important;
+            background-color: #f5f4f4;
+          }
+        }
+      }
+
+    }
+  }
+}
+
   @media screen and (max-width: 736px) {
     .page-header .menu-header {
       height: 420px;
@@ -247,17 +308,17 @@ div.wrapper.menu {
             border: none;
             background: transparent !important;
             box-shadow: none !important;
-          font-size: 18px;
-          text-align: center;
-          font-family: Museo900;
-          padding: 20px 0;
+            font-size: 18px;
+            text-align: center;
+            font-family: Museo900;
+            padding: 20px 0;
             &:focus {
               border: none !important;
               background: transparent !important;
               box-shadow: none !important;
             }
           }
-        ul.dropdown-menu {
+        ul {
           width: 100%;
           top: 0;
           margin: 0;
@@ -268,7 +329,8 @@ div.wrapper.menu {
           li {
             padding: 10px 0;
             a {
-
+              border-color: transparent !important;
+              background-color: #f5f4f4;
             }
           }
         }

@@ -1,4 +1,5 @@
 <?php
+show_admin_bar(false);
 register_nav_menus(array(
 	'top' => 'Верхнее меню',
 	'bottomleft' => 'Внизу первое',
@@ -59,6 +60,21 @@ function woocommerce_support() {
 //подключение файла настроек редактора
 include ('functions/posts.php');
 include('functions/settings.php');
+
+?>
+
+<?php
+
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+	function custom_override_checkout_fields( $fields ) {
+        $fields['billing']['billing_address_1']['required'] = false;
+        $fields['billing']['billing_address_2']['required'] = false;
+		unset($fields['billing']['billing_address_1']);
+		unset($fields['billing']['billing_address_2']);
+	return $fields;
+}
+
 
 ?>
 

@@ -6,10 +6,17 @@
 
 
 $(document).ready(function() {
-    var cartItem = $('.woocommerce-cart-form__cart-item');
+    var cartItem = $('.cart_item');
     cartItem.each(function(key, value) {
         new Quantity($(this));
     });
+    
+     setInterval(function() {
+          var cartItem = $('.cart_item');
+    cartItem.each(function(key, value) {
+        new Quantity($(this));
+    });
+     }, 100)
 });
 
 

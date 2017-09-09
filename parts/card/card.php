@@ -49,7 +49,7 @@
                                         if ( ! $product_permalink ) {
                                             echo $thumbnail;
                                         } else {
-                                            printf( '<a href="%s">%s</a>', esc_url( $product_permalink ), $thumbnail );
+                                            printf( '<p href="%s">%s</p>', esc_url( $product_permalink ), $thumbnail );
                                         }
                                         ?>
                                     </div>
@@ -59,7 +59,7 @@
                                         if ( ! $product_permalink ) {
                                             echo apply_filters( 'woocommerce_cart_item_name', $_product->get_name(), $cart_item, $cart_item_key ) . '&nbsp;';
                                         } else {
-                                            echo apply_filters( 'woocommerce_cart_item_name', sprintf( '<a href="%s">%s</a>', esc_url( $product_permalink ), $_product->get_name() ), $cart_item, $cart_item_key );
+                                            echo apply_filters( 'woocommerce_cart_item_name', sprintf( '<p style="font-weight: bold" href="%s">%s</p>', esc_url( $product_permalink ), $_product->get_name() ), $cart_item, $cart_item_key );
                                         }
 
                                         // Meta data
@@ -82,7 +82,7 @@
                                     </div>
 
 
-                                    <div class="col-xl-3 col-lg-2 col-md-3 col-sm-2 col-xs-2 product-quantity" data-title="<?php esc_attr_e( 'Quantity', 'woocommerce' ); ?>">
+                                    <div class="col-xl-3 col-lg-2 col-md-3 col-sm-3 col-xs-2 product-quantity" data-title="<?php esc_attr_e( 'Quantity', 'woocommerce' ); ?>">
                                         <span id="qantityDeecriment" class="quantity_controls pull-left">-</span>
                                         <?php
                                         if ( $_product->is_sold_individually() ) {

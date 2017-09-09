@@ -20,7 +20,7 @@
   src: url('../fonts/MuseoSansCyrl_3.otf');
 }
 
-// ivans vars
+
 $mediumFontSize: 36px;
 $priceFontSize: 20px;
 $smallFontSize: 14px;
@@ -28,7 +28,7 @@ $lightGray: #d7d7d7;
 $quantityCol: #f5f4f4;
 $black: #111010;
 $white: #ffffff;
-// end
+
 
 
 
@@ -52,5 +52,6 @@ $black-text: #111010;
   top: 0;
   left: 0;
   background: rgba(0,0,0,0.75);
+  transition: all .3s;
 }
 

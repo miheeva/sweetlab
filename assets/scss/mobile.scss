@@ -57,16 +57,18 @@
       div.navbar-collapse {
         position: absolute;
         top: 132px;
-        width: 100vw;
+        width: 100%;
         height: auto;
         background-color: #fff;
         margin: 0 !important;
         text-align: center;
+        left: 0;
+        z-index: 1;
         ul {
           padding: 20px 0;
           li {
             a {
-              color: #45464f;
+              color: #45464f !important;
               font-family: Museo900;
               font-size: 18px;
             }
@@ -84,6 +86,16 @@
       border-radius: 2px;
       margin-top: 4px;
       margin-bottom: 4px;
+    }
+  }
+  ul#menu-header {
+    #wpmenucartli {
+      a {
+        span.count {
+          background: #111010 !important;
+          color: #fff !important;
+        }
+      }
     }
   }
 
@@ -301,7 +313,7 @@
     }
     }
   footer {
-    height: 375px;
+    height: 540px;
     .logo {
       width: 50vw !important;
     }
@@ -322,7 +334,7 @@
 }
 @media screen and (max-width: 320px){
   footer {
-    height: 400px;
+    height: 640px;
   }
 
 }

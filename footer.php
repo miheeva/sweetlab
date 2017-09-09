@@ -1,4 +1,4 @@
-<footer data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="vertical">
+<footer>
     <div class="overlay-dark"></div>
     <div class="wrapper">
         <div class="container">
@@ -56,6 +56,20 @@
                     ?>
                 </div>
             </div>
+            <div class="row pay-logo">
+                <ul class="list-inlines">
+                    <li><img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/pay/00-payonline-h250.png" alt=""></li>
+                    <li><img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/pay/01-mir-h250.png" alt=""></li>
+                    <li><img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/pay/02-visa-h250.png" alt=""></li>
+                    <li><img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/pay/03-mastercard-h250.png" alt=""></li>
+                    <li><img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/pay/04-verified-by-visa-h250.png" alt=""></li>
+                    <li><img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/pay/05-mc-secure-code-h250.png" alt=""></li>
+                    <li><img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/pay/06-webmoney-h250.png" alt=""></li>
+                    <li><img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/pay/07-yandex-money-h250.png" alt=""></li>
+                    <li><img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/pay/08-qiwi-h250.png" alt=""></li>
+                    <li><img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/pay/09-miraccept-h250.png" alt=""></li>
+                </ul>
+            </div>
         </div>
     </div>
 </footer>
@@ -64,6 +78,6 @@
 <?php wp_footer(); ?>
 <script src="<?= get_template_directory_uri();?>/assets/paroller/dist/jquery.paroller.min.js"></script>
 <script src="<?= get_template_directory_uri();?>/assets/js/custom.js"></script>
-
+<script src="<?= get_template_directory_uri();?>/assets/js/card_helper.js"></script>
 </body>
 </html>

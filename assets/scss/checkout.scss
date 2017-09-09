@@ -1,0 +1,98 @@
+header.header-page-second {
+  width: 100%;
+}
+article.hentry {
+  width: 997px;
+  margin: 135px auto;
+  h1 {
+    padding: 50px 30px 70px;
+  }
+
+}
+.woocommerce-info {
+  font-family: Museo300 !important;
+  border-top-color: #111010 !important;
+  background-color: transparent !important;
+  color: #111010 !important;
+  a {
+    color: #111010 !important;
+    font-family: Museo500 !important;
+  }
+  &::before {
+    color: #111010 !important;
+  }
+}
+.woocommerce form .form-row label {
+  line-height: 1;
+}
+.woocommerce {
+  background: #fff;
+  padding: 20px;
+  margin-top: -20px;
+
+  input {
+    font-size: 18px;
+    width: 100% !important;
+    border: 1px solid rgba(17, 16, 16, 0.4) !important;
+    padding: 5px;
+    color: rgba(17, 16, 16, 0.6);
+    &:hover {
+      border: 1px solid rgba(17, 16, 16, 0.6) !important;
+    }
+    &:focus {
+      border: 1px solid rgba(17, 16, 16, 1) !important;
+      color: rgba(17, 16, 16, 1);
+    }
+  }
+  .form-row-first, .form-row-last {
+    width: 100% !important;
+  }
+  textarea {
+    border: 1px solid rgba(17, 16, 16, 0.4) !important;
+    padding: 5px;
+    &:hover {
+      border: 1px solid rgba(17, 16, 16, 0.6) !important;
+    }
+    &:focus {
+      border: 1px solid rgba(17, 16, 16, 1) !important;
+    }
+  }
+  abbr {
+    font-weight: 400 !important;
+    border: 0 !important;
+  }
+
+  abbr[title] {
+    text-decoration: none !important;
+  }
+  .form-row {
+    padding: 10px 0 !important;
+    float: none !important;
+  }
+  #order_review {
+    margin-top: 35px;
+  }
+  @media screen and (max-width: 991px) {
+    form.checkout {
+      overflow: hidden;
+      .col-md-6 {
+        width: 100% !important;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 15px auto;
+      }
+    }
+  }
+
+}
+@media screen and (max-width: 991px){
+  article.hentry {
+    width: 100vw;
+    //margin: 135px auto;
+  }
+}
+@media screen and (max-width: 575px){
+  .woocommerce {
+    padding: 0;
+  }
+}

@@ -1,6 +1,6 @@
 footer {
   background: url("../img/footer.jpg") 20% 100% no-repeat;
-  height: 260px;
+  height: 300px;
   background-size: cover;
   position: relative;
   padding-top: 44px;
@@ -40,6 +40,18 @@ footer {
         }
       }
     }
+    .pay-logo {
+      ul {
+        margin: 25px auto;
+        li {
+          display: inline-block;
+          width: 69px;
+          img {
+
+          }
+        }
+      }
+    }
   }
 }
 
@@ -50,12 +62,15 @@ footer {
   height: 100vh;
   width: 100vw;
   background: rgba(0,0,0,0.7);
-  display: block;
+  display: none;
   z-index: 9999;
   .cart-content {
     width: 55vw;
+    @media screen and (max-width: 991px) {
+      width: 100vw;
+    }
     background: white;
-    height: 100vw;
+
     display: block;
     float: right;
     .container {
@@ -154,5 +169,10 @@ footer {
       }
 
     }
+
   }
+}
+
+@media screen and (max-width: 767px) {
+
 }
